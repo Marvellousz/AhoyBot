@@ -1,18 +1,18 @@
-# 🏴‍☠️ AhoyBot
+# AhoyBot
 
 AhoyBot is a pirate-themed, multi-session AI chat web app built with React and Node.js. It features persistent chat history, a modern dark UI, and compact, right-aligned chat bubbles-just like your favorite messaging apps!
 
-## ⚓ Features
+## Features
 
-- 🏴‍☠️ **Pirate-Themed UI:** Fun, immersive chat experience with a pirate twist!
-- 💬 **Multi-Session Chat:** Create, switch, and delete multiple chat threads.
-- 💾 **Persistent History:** All chats are saved in your browser and restored after reload.
-- 🌙 **Modern Dark Mode:** Clean, compact, and easy on the eyes.
-- ⚡ **Fast & Local:** No backend required for history-everything is saved in your browser.
-- 🤖 **AI-Powered:** Connects to your AI backend (e.g., Gemini, OpenAI, etc.).
+- **Pirate-Themed UI:** Fun, immersive chat experience with a pirate twist!
+- **Multi-Session Chat:** Create, switch, and delete multiple chat threads.
+- **Persistent History:** All chats are saved in your browser and restored after reload.
+- **Modern Dark Mode:** Clean, compact, and easy on the eyes.
+- **Fast & Local:** No backend required for history-everything is saved in your browser.
+- **AI-Powered:** Connects to your AI backend (e.g., Gemini, OpenAI, etc.).
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. **Clone the Repository**
 ```bash
@@ -55,7 +55,7 @@ cd ../frontend
 npm run dev
 ```
 
-## 🛠️ Project Structure
+## Project Structure
 ```bash
 ahoybot/
 backend/
@@ -70,4 +70,4 @@ index.css
 package.json
 ```
 
-## 🏴‍☠️ Fair winds and happy chatting, matey!
+## Fair winds and happy chatting, matey!
