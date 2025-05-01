@@ -7,7 +7,23 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.use(cors({ origin: "http://localhost:5173" }));
+// Allow both local and deployed frontend
+const allowedOrigins = ["http://localhost:5173", "https://ahoy-bot.vercel.app"];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // Allow requests with no origin (like curl, Postman, etc.)
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      } else {
+        return callback(new Error("Not allowed by CORS"));
+      }
+    },
+  }),
+);
+
 app.use(express.json());
 
 app.post("/chat", async (req, res) => {
