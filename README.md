@@ -56,7 +56,7 @@ npm run dev
 ```
 
 ## 🛠️ Project Structure
-
+```bash
 ahoybot/
 backend/
 server.js
@@ -68,5 +68,6 @@ App.jsx
 App.css
 index.css
 package.json
+```
 
 ## 🏴‍☠️ Fair winds and happy chatting, matey!
