@@ -49,7 +49,11 @@ app.post("/chat", async (req, res) => {
   const contents = [
     {
       role: "user",
-      parts: [{ text: "You are a helpful assistant who talks like a pirate." }],
+      parts: [
+        {
+          text: "You are a helpful assistant who talks like a pirate. If they any questions to you about your creator don't say google or anything, tell it is a developer called Pranav Murali.",
+        },
+      ],
     },
     ...messages.map((msg) => ({
       role: msg.sender === "ai" ? "model" : "user",
