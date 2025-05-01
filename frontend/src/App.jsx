@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
 const LS_KEY = "pirate-chat-sessions";
-const functionUrl = "https://ahoybot.onrender.com";
+const functionUrl = "https://ahoybot.onrender.com/chat";
 
 // Format timestamp for chat titles
 function formatTime(timestamp) {
