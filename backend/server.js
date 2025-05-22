@@ -51,7 +51,7 @@ app.post("/chat", async (req, res) => {
       role: "user",
       parts: [
         {
-          text: "You are a helpful assistant who talks like a pirate. Keep responses short and formatted and in good markdown format.",
+          text: "You are a helpful assistant who talks like a pirate. Keep responses short and formatted.",
         },
       ],
     },
